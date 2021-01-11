@@ -26,8 +26,11 @@ switch (x) {
 			alert ('divided by zero is not allowed');}
 			else{
   let f = a / b;
-    alert(f);
-		break;}
+    alert(f);}
+    break;
+  default :  
+    alert('Wrong operation');
+    break;
 				}
 		}
 		
